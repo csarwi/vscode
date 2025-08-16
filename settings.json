@@ -1,0 +1,140 @@
+{
+    "git.openRepositoryInParentFolders": "always",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.activityBar.location": "hidden",
+    "workbench.editor.showTabs": "single",
+    "workbench.statusBar.visible": true, //NOTE: This setting is very important when working with vscodevim, because of the : commands
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.hidesExplorerArrows": true,
+    "workbench.tree.enableStickyScroll": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.indent": 8,
+    "explorer.compactFolders": false,
+    "editor.tabCompletion": "on",
+    "editor.snippetSuggestions": "top",
+    "emmet.triggerExpansionOnTab": true,
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.decorations.badges": true,
+    "scm.inputFontFamily": "FiraCode Nerd Font",
+    "debug.console.fontFamily": "FiraCode Nerd Font",
+    "editor.codeLensFontFamily": "FiraCode Nerd Font",
+    "notebook.markup.fontFamily": "FiraCode Nerd Font",
+    "notebook.output.fontFamily": "FiraCode Nerd Font",
+    "markdown.preview.fontFamily": "FiraCode Nerd Font",
+    "editor.inlayHints.fontFamily": "FiraCode Nerd Font",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+    "editor.fontFamily": "FiraCode Nerd Font",
+    "editor.formatOnPaste": true,
+    "window.menuBarVisibility": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "window.commandCenter": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "window.customTitleBarVisibility": "never",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "relative",
+    "editor.guides.indentation": false,
+    "update.mode": "none",
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "sideBar.background":"#1a1b25",
+            "terminal.background": "#1a1b25"
+        },
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "foreground": "black",
+            "background": "red",
+            "opacity": 20,
+        },
+        "NOTE": {
+            "foreground": "black",
+            "background": "blue",
+            "opacity": 20,
+        }
+    },
+    "todo-tree.general.tags": [
+        "NOTE",
+        "TODO"
+    ],
+    "vim.highlightedyank.enable": true,
+    "vim.useSystemClipboard": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<leader>",
+                "s", 
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.showAllEditors"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "o"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "c"
+            ],
+            "commands": [
+                "workbench.files.action.collapseExplorerFolders"
+            ]
+        }
+    ],
+    "vim.leader": "<space>"
+}
