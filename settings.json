@@ -8,7 +8,7 @@
     "workbench.editor.showTabs": "single",
     "workbench.statusBar.visible": true, //NOTE: This setting is very important when working with vscodevim, because of the : commands
     "workbench.startupEditor": "none",
-    "workbench.tips.enabled": false,
+    "workbench.tips.enabled": true,
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
     "workbench.sideBar.location": "right",
@@ -47,7 +47,7 @@
     "update.mode": "none",
     "workbench.colorCustomizations": {
         "[Tokyo Night]": {
-            "sideBar.background":"#1a1b25",
+            "sideBar.background": "#1a1b25",
             "terminal.background": "#1a1b25"
         },
     },
@@ -78,12 +78,15 @@
         "TODO"
     ],
     "vim.highlightedyank.enable": true,
+    "vim.autoindent": true,
+    //"vim.vimrc.enable": true,
+    //"vim.vimrc.path": "C:\\src\\vscode\\.vimrc",
     "vim.useSystemClipboard": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [
                 "<leader>",
-                "s", 
+                "s",
                 "f"
             ],
             "commands": [
@@ -136,5 +139,11 @@
             ]
         }
     ],
-    "vim.leader": "<space>"
+    "vim.leader": "<space>",
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "925A6CE1-88D4-46C4-B662-0981674F6B7E"
+        }
+    ],
 }
