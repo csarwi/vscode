@@ -3,7 +3,7 @@
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
     },
-    "workbench.colorTheme": "Tokyo Night",
+    "workbench.colorTheme": "Monokai Classic",
     "workbench.activityBar.location": "hidden",
     "workbench.editor.showTabs": "single",
     "workbench.statusBar.visible": true, //NOTE: This setting is very important when working with vscodevim, because of the : commands
@@ -12,7 +12,7 @@
     "breadcrumbs.enabled": false,
     "editor.minimap.enabled": false,
     "workbench.sideBar.location": "right",
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "Monokai Classic Icons",
     "material-icon-theme.hidesExplorerArrows": true,
     "workbench.tree.enableStickyScroll": true,
     "workbench.tree.renderIndentGuides": "none",
@@ -77,6 +77,7 @@
         "NOTE",
         "TODO"
     ],
+    "vim.enableNeovim": true,
     "vim.highlightedyank.enable": true,
     "vim.autoindent": true,
     //"vim.vimrc.enable": true,
@@ -146,4 +147,5 @@
             "id": "925A6CE1-88D4-46C4-B662-0981674F6B7E"
         }
     ],
+    "python.defaultInterpreterPath": "c:\\Python313\\python.exe",
 }
