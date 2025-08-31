@@ -78,6 +78,7 @@
         "TODO"
     ],
     "vim.enableNeovim": true,
+    "vim.surround": true,
     "vim.highlightedyank.enable": true,
     "vim.autoindent": true,
     //"vim.vimrc.enable": true,
