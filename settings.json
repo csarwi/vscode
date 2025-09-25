@@ -5,7 +5,7 @@
     },
     "workbench.colorTheme": "Monokai Classic",
     "workbench.activityBar.location": "hidden",
-    "workbench.editor.showTabs": "single",
+    "workbench.editor.showTabs": "none",
     "workbench.statusBar.visible": true, //NOTE: This setting is very important when working with vscodevim, because of the : commands
     "workbench.startupEditor": "none",
     "workbench.tips.enabled": true,
@@ -149,4 +149,7 @@
         }
     ],
     "python.defaultInterpreterPath": "c:\\Python313\\python.exe",
+    "editor.formatOnSave": true,
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1"
+
 }
